@@ -1,0 +1,16 @@
+{
+  "name": "playwright-qatest",
+  "version": "1.0.0",
+  "description": "Playwright tests for Request A Quote form",
+  "scripts": {
+    "test": "playwright test",
+    "test:chromium": "playwright test --project=Chromium",
+    "test:firefox": "playwright test --project=Firefox",
+    "test:webkit": "playwright test --project=Webkit",
+    "test:debug": "playwright test --debug",
+    "report": "playwright show-report"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.30.0"
+  }
+}
